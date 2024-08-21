@@ -19,9 +19,9 @@
   display: block;
   width: 100%;
   padding: 10px;
-  background: #f39f5a; /* Cor de fundo */
+  background: rgb(160, 155, 155); /* Cor de fundo */
   color: white;
-  border: 2px solid #e36414; /* Cor da borda */
+  border: 2px solid black; /* Cor da borda */
   text-align: left;
   cursor: pointer;
   position: relative;

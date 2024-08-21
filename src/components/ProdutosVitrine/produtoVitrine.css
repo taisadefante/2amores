@@ -10,7 +10,7 @@
   gap: 10px;
   padding: 15px;
   border-radius: 10px;
-  border: 2px solid orange;
+  border: 2px solid rgb(160, 155, 155);
   background: transparent;
 }
 .container-produtos img {
@@ -29,13 +29,13 @@
 .preco-produto-vitrine {
   font-size: 0.8rem;
   font-weight: 800;
-  color: #e36414;
+  color: rgb(160, 155, 155);
 }
 .button-produto {
   padding: 10px;
-  border: 1px solid #e36414;
+  border: 1px solid rgb(160, 155, 155);
   border-radius: 2px;
-  background: #e36414;
+  background: rgb(160, 155, 155);
   color: #fff;
   font-size: 15px;
   display: flex;
@@ -44,8 +44,8 @@
 }
 .button-produto:hover {
   transform: scale(1.1);
-  background: #f39f5a;
-  border: 2px solid #e36414;
+  background: rgb(160, 155, 155);
+  border: 2px solid rgb(160, 155, 155);
   color: #fff;
 }
 
