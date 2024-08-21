@@ -1,0 +1,81 @@
+/* botoesFiltro.css */
+
+/* Container principal para os botões de filtro */
+.container-buttons-filtro {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Container para cada categoria e seus produtos */
+.categoria-container {
+  margin-bottom: 20px;
+}
+
+/* Botão de filtro */
+.button-filtro {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #f39f5a; /* Cor de fundo */
+  color: white;
+  border: 2px solid #e36414; /* Cor da borda */
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Imagem dentro do botão */
+.button-filtro img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Container dos produtos dentro de cada categoria */
+.produtos-categoria {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: center; /* Centraliza os produtos horizontalmente */
+}
+
+/* Estilo dos produtos */
+.produto-vitrine {
+  display: block;
+  width: calc(
+    25% - 20px
+  ); /* Ajusta o tamanho dos produtos, considerando o espaçamento */
+  margin: 10px; /* Espaçamento entre os produtos */
+  padding: 10px;
+  background: #f39f5a; /* Cor de fundo */
+  border: 2px solid #e36414; /* Cor da borda */
+  box-sizing: border-box;
+  border-radius: 5px; /* Bordas arredondadas */
+  text-align: center; /* Centraliza o texto dentro do produto */
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 1200px) {
+  .produto-vitrine {
+    width: calc(33.33% - 20px); /* Três produtos por linha em telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  .produto-vitrine {
+    width: calc(
+      50% - 20px
+    ); /* Dois produtos por linha em telas ainda menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .produto-vitrine {
+    width: 100%; /* Um produto por linha em telas muito pequenas */
+  }
+}
