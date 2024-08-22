@@ -514,7 +514,7 @@ const produtos = [
 
   {
     id: 12.5,
-    nome: "Empada Camarão (esgotado)",
+    nome: "Empada Camarão ",
     categoria: "Empadas",
     descricao: "( Aprox: 7cm )",
     preco: 4.0,
