@@ -1061,6 +1061,33 @@ const produtos = [
     foto: "",
   },
 
+  {
+    id: 26.5,
+    nome: "Abacaxi",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: "",
+  },
+
+  {
+    id: 26.6,
+    nome: "Paçoca",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: "",
+  },
+
+  {
+    id: 26.7,
+    nome: "Paçoca c/ ganache",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: "",
+  },
+
   // Festas
   {
     id: 28,
