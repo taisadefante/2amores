@@ -1088,6 +1088,51 @@ const produtos = [
     foto: "",
   },
 
+  {
+    id: 26.8,
+    nome: "Maracuja",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: "",
+  },
+
+  {
+    id: 26.9,
+    nome: "Maracuja c/ ganache",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: "",
+  },
+
+  {
+    id: 26.11,
+    nome: "Chocolate",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: "",
+  },
+
+  {
+    id: 26.12,
+    nome: "Doce de Leite",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: "",
+  },
+
+  {
+    id: 26.13,
+    nome: "Romeu e Julieta",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: "",
+  },
+
   // Festas
   {
     id: 28,
