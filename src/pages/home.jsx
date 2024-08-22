@@ -11,6 +11,8 @@ import ifood from "../assets/ifood.png";
 import picpayLogo from "../assets/picpay.png";
 import mercadoPagoLogo from "../assets/mercadopago.jpeg";
 import pixLogo from "../assets/pix.png";
+import cartao1 from "../assets/cartao1.jpg";
+import cartao from "../assets/cartão.jpg";
 
 export default function Home() {
   const [filtro, setFiltro] = useState(null);
@@ -44,7 +46,9 @@ export default function Home() {
             <img src={picpayLogo} alt="PicPay" />
             <img src={mercadoPagoLogo} alt="Mercado Pago" />
             <img src={pixLogo} alt="Pix" />
+            <img src={cartao1} alt="Pix" />
           </div>
+          <img src={cartao} alt="cartão" width={"300px"} />
         </section>
         <section className="shipping-section">
           <h2>Entrega</h2>
