@@ -133,7 +133,7 @@ const produtos = [
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao:
       "Aprox: 350g - Panqueca de carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e brocolis.",
-    preco: 16.0,
+    preco: 15.0,
     foto: panqueca_arrozbranco,
   },
 
@@ -143,7 +143,7 @@ const produtos = [
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao:
       "Aprox: 350g - Panqueca de carne com milho, arroz branco com brocolis, cenoura refogada no azeite e ervas finas.",
-    preco: 16.0,
+    preco: 15.0,
     foto: panqueca_arrozblocolis,
   },
 
@@ -153,7 +153,7 @@ const produtos = [
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao:
       "Aprox: 350g - Panqueca de espinafre c/ carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e blocolis.",
-    preco: 16.0,
+    preco: 15.0,
     foto: panqueca_espinafre,
   },
 
@@ -163,7 +163,7 @@ const produtos = [
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao:
       "Recheado com molho a bolonhesa e queijo (aprox: 500g)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta). ",
-    preco: 21.0,
+    preco: 20.0,
     foto: bolo_batata,
   },
 
@@ -181,7 +181,7 @@ const produtos = [
     nome: "Panqueca de frango c/ ricota - arroz c/ brócolis",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: "(aprox: 300g). ",
-    preco: 14.0,
+    preco: 13.0,
     foto: bolo_batata_arroz,
   },
 
@@ -190,7 +190,7 @@ const produtos = [
     nome: "Panqueca frango c/ milho, arroz c/ brócolis",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 300g). ",
-    preco: 14.0,
+    preco: 13.0,
     foto: panqueca_arrozcenoura,
   },
 
@@ -199,7 +199,7 @@ const produtos = [
     nome: "Panqueca espinafre frango cremoso com requeijão, arroz com cenoura",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 300g) ",
-    preco: 14.0,
+    preco: 13.0,
     foto: panqueca_arrozcenoura,
   },
 
@@ -208,7 +208,7 @@ const produtos = [
     nome: "Panqueca espinafre frango e ricota, arroz com cenoura",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 300g) ",
-    preco: 14.0,
+    preco: 13.0,
     foto: panqueca_arrozcenoura,
   },
 
@@ -217,7 +217,7 @@ const produtos = [
     nome: "Panqueca espinafre frango , arroz com cenoura",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 250g)",
-    preco: 12.0,
+    preco: 11.0,
     foto: panqueca_arrozcenoura,
   },
 
@@ -226,7 +226,7 @@ const produtos = [
     nome: "Panqueca espinafre frango C/ MILHO , arroz com cenoura",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 250g) ",
-    preco: 12.0,
+    preco: 11.0,
     foto: panqueca_arrozcenoura,
   },
 
@@ -235,7 +235,7 @@ const produtos = [
     nome: "Frango c/ quiabo, arroz integral, mix legumes (cenoura, abobora, inhame e chuchu).",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 350g) ",
-    preco: 16.0,
+    preco: 15.0,
     foto: frango_quiabo1,
   },
 
@@ -244,7 +244,7 @@ const produtos = [
     nome: "Frango c/ quiabo, arroz c/ açafrão, mix legumes (cenoura, abobora, inhame e chuchu).",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 350g) ",
-    preco: 16.0,
+    preco: 15.0,
     foto: frango_quiabo2,
   },
 
@@ -253,7 +253,7 @@ const produtos = [
     nome: "Frango c/ quiabo, arroz c/ açafrão e abobora refogada c/ ervas finas.",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 350g) ",
-    preco: 16.0,
+    preco: 15.0,
     foto: frango_quiabo3,
   },
 
@@ -262,7 +262,7 @@ const produtos = [
     nome: "Frango c/ quiabo, arroz c/ açafrão e mix legumes (cenoura, abobora, inhame e chuchu).",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 350g) ",
-    preco: 16.0,
+    preco: 15.0,
     foto: frango_quiabo4,
   },
 
@@ -271,7 +271,7 @@ const produtos = [
     nome: "Frango c/ quiabo, arroz integral e abobora.",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 350g) ",
-    preco: 16.0,
+    preco: 15.0,
     foto: frango_quiabo5,
   },
 
@@ -280,7 +280,7 @@ const produtos = [
     nome: "Frango c/ quiabo, arroz integral e mix legumes (cenoura, abobora, inhame e chuchu).",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 350g) ",
-    preco: 16.0,
+    preco: 15.0,
     foto: frango_quiabo6,
   },
 
@@ -289,7 +289,7 @@ const produtos = [
     nome: "File de linguado no forno, arroz integral e abobora.",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 300g) ",
-    preco: 14.0,
+    preco: 13.0,
     foto: linguado_forno1,
   },
 
@@ -298,7 +298,7 @@ const produtos = [
     nome: "File de linguado no forno, arroz c/açafrão e mix de legumes (cenoura, inhame e chuchu).",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 300g) ",
-    preco: 14.0,
+    preco: 13.0,
     foto: linguado_forno3,
   },
 
@@ -307,7 +307,7 @@ const produtos = [
     nome: "File de linguado no forno, arroz integral e amix de legumes (cenoura, inhame e chuchu).",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 300g) ",
-    preco: 14.0,
+    preco: 13.0,
     foto: linguado_forno4,
   },
 
@@ -316,7 +316,7 @@ const produtos = [
     nome: "File de linguado no forno, arroz c/açafrão e abobora.",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 300g) ",
-    preco: 14.0,
+    preco: 13.0,
     foto: linguado_forno5,
   },
   //SOPAS
