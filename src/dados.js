@@ -101,6 +101,7 @@ import arrozdoce from "./assets/doces e sobremesas/arroz doce.jpg";
 // GELADINHO / SACOLE GOURMET
 import geladinho_coco from "./assets/geladinho/coco.jpg";
 import geladinho_coco_ganache from "./assets/geladinho/coco_ganache.jpg";
+import geladinho_ninho_nutella from "./assets/geladinho/ninho_nutella.jpg";
 
 //FESTA
 import chocomaca from "./assets/outros/chocomaca.png";
@@ -1039,7 +1040,7 @@ const produtos = [
     categoria: "Geladinho / Sacole Gourmet",
     descricao: "Aprox: 160g",
     preco: 5.0,
-    foto: "",
+    foto: geladinho_ninho_nutella,
   },
 
   {

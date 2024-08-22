@@ -17,6 +17,7 @@ import logoFestas from "../../assets/outros/pirulito-mar.png";
 import logoBebida from "../../assets/bebida/pepsi.jpg";
 import logoDoces from "../../assets/doces e sobremesas/arroz doce.jpg";
 import logoPanqueca from "../../assets/panqueca/panqueca_carne.png";
+import geladinho from "../../assets/geladinho/ninho_nutella.jpg";
 
 function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
   const categorias = [
@@ -87,7 +88,7 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
                   : categoria === "Doces e sobremesas"
                   ? logoDoces
                   : categoria === "Geladinho / Sacole Gourmet"
-                  ? logoDoces
+                  ? geladinho
                   : categoria === "Festa"
                   ? logoFestas
                   : categoria === "Bebidas"
