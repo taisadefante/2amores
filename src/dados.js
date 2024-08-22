@@ -98,6 +98,10 @@ import ninho from "./assets/doces e sobremesas/ninho.jpg";
 import mini_pudim from "./assets/doces e sobremesas/mini_pudim.jpg";
 import arrozdoce from "./assets/doces e sobremesas/arroz doce.jpg";
 
+// GELADINHO / SACOLE GOURMET
+import geladinho_coco from "./assets/geladinho/coco.jpg";
+import geladinho_coco_ganache from "./assets/geladinho/coco_ganache.jpg";
+
 //FESTA
 import chocomaca from "./assets/outros/chocomaca.png";
 import chocomaca2 from "./assets/outros/chocomaca3.png";
@@ -342,6 +346,16 @@ const produtos = [
     descricao:
       "Aprox: 500ml - Com batata, cenoura, peito frango em cubos, curry",
     preco: 18.0,
+    foto: sopa_canja,
+  },
+
+  {
+    id: 6.2,
+    nome: "Sopa Canja 350ml",
+    categoria: "Sopas",
+    descricao:
+      "Aprox: 350ml - Com batata, cenoura, inhame, peito frango em cubos, curry",
+    preco: 13.0,
     foto: sopa_canja,
   },
 
@@ -999,9 +1013,56 @@ const produtos = [
     foto: mini_pudim,
   },
 
+  // GELADINHO
+
+  {
+    id: 26,
+    nome: "Coco",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: geladinho_coco,
+  },
+
+  {
+    id: 26.1,
+    nome: "Coco c/ Ganache",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: geladinho_coco_ganache,
+  },
+
+  {
+    id: 26.2,
+    nome: "Ninho com Nutella",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: "",
+  },
+
+  {
+    id: 26.3,
+    nome: "Morango com Nutella",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: "",
+  },
+
+  {
+    id: 26.4,
+    nome: "Morango",
+    categoria: "Geladinho / Sacole Gourmet",
+    descricao: "Aprox: 160g",
+    preco: 5.0,
+    foto: "",
+  },
+
   // Festas
   {
-    id: 25,
+    id: 28,
     nome: "Choco maça",
     categoria: "Festa",
     descricao: "Por encomenda - colorido sai a R$ 3,40",
@@ -1010,7 +1071,7 @@ const produtos = [
   },
 
   {
-    id: 25.1,
+    id: 28.1,
     nome: "choco maça",
     categoria: "Festa",
     descricao: "Por encomenda - colorido sai a R$ 3,40",
@@ -1019,7 +1080,7 @@ const produtos = [
   },
 
   {
-    id: 25.2,
+    id: 28.2,
     nome: "Choco maça",
     categoria: "Festa",
     descricao: "Por encomenda",
@@ -1028,7 +1089,7 @@ const produtos = [
   },
 
   {
-    id: 25.3,
+    id: 28.3,
     nome: "Pirulito marshmallow",
     categoria: "Festa",
     descricao: "Por encomenda - a cor de sua preferência.",
@@ -1037,7 +1098,7 @@ const produtos = [
   },
 
   {
-    id: 25.4,
+    id: 28.4,
     nome: "Pirulito de chocolate",
     categoria: "Festa",
     descricao: "Por encomenda - a cor de sua preferência.",
@@ -1047,7 +1108,7 @@ const produtos = [
 
   //BEBIDA
   {
-    id: 26,
+    id: 30,
     nome: "Pepsi 2lt",
     categoria: "Bebidas",
     descricao: "",
@@ -1056,7 +1117,7 @@ const produtos = [
   },
 
   {
-    id: 26.1,
+    id: 30.1,
     nome: "Sukita uva",
     categoria: "Bebidas",
     preco: 8.0,
@@ -1064,7 +1125,7 @@ const produtos = [
   },
 
   {
-    id: 26.2,
+    id: 30.2,
     nome: "Sukita Laranja",
     categoria: "Bebidas",
     preco: 8.0,
