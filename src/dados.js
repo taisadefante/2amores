@@ -666,8 +666,7 @@ const produtos = [
     id: 20,
     nome: "Quiche alho poró",
     categoria: "Quiche",
-    descricao:
-      "Aprox: ( 9cm ) - Outros tamanhos por encomenda  - 17cm por 22,00 -  25cm por  R$ 38,90,  - 30cm por R$ 52,00.",
+    descricao: "Aprox: ( 9cm ) -",
     preco: 4.5,
     foto: quiche_alho_poro,
   },
@@ -676,8 +675,7 @@ const produtos = [
     id: 20.1,
     nome: "Quiche queijo",
     categoria: "Quiche",
-    descricao:
-      "Aprox: ( 9cm ) - Outros tamanhos por encomenda  - 17cm por 22,00 -  25cm por  R$ 38,90,  - 30cm por R$ 52,00.",
+    descricao: "Aprox: ( 9cm ) ",
     preco: 4.5,
     foto: quiche_queijo,
   },
@@ -686,8 +684,7 @@ const produtos = [
     id: 20.2,
     nome: "Quiche 5 queijos",
     categoria: "Quiche",
-    descricao:
-      "Aprox: ( 9cm ) - Outros tamanhos por encomenda  - 17cm por 22,00 -  25cm por  R$ 38,90,  - 30cm por R$ 52,00.",
+    descricao: "Aprox: ( 9cm ) ",
     preco: 5.0,
     foto: quiche_queijo,
   },
