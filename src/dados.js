@@ -160,7 +160,7 @@ const produtos = [
 
   {
     id: 2.3,
-    nome: "Bolo de batata",
+    nome: "Bolo de batata ( ESGOTADO )",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao:
       "Recheado com molho a bolonhesa e queijo (aprox: 500g)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta). ",
@@ -170,7 +170,7 @@ const produtos = [
 
   {
     id: 2.4,
-    nome: "Bolo de batata c/ arroz",
+    nome: "Bolo de batata c/ arroz ( ESGOTADO )",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: "Recheado com molho a bolonhesa e queijo (aprox: 400g).",
     preco: 17.0,
@@ -342,7 +342,7 @@ const produtos = [
 
   {
     id: 6.1,
-    nome: "Sopa Canja 500ml",
+    nome: "Sopa Canja 500ml ( ESGOTADO )",
     categoria: "Sopas",
     descricao:
       "Aprox: 500ml - Com batata, cenoura, peito frango em cubos, curry",
@@ -352,7 +352,7 @@ const produtos = [
 
   {
     id: 6.2,
-    nome: "Sopa Canja 350ml",
+    nome: "Sopa Canja 350ml ( ESGOTADO )",
     categoria: "Sopas",
     descricao:
       "Aprox: 350ml - Com batata, cenoura, inhame, peito frango em cubos, curry",
@@ -363,7 +363,7 @@ const produtos = [
   //MASSAS
   {
     id: 10,
-    nome: "Lasanha bolonhesa c/ queijo e presunto ",
+    nome: "Lasanha bolonhesa c/ queijo e presunto ( ESGOTADO )",
     categoria: "Massas",
     descricao:
       " (aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
@@ -373,7 +373,7 @@ const produtos = [
 
   {
     id: 10.1,
-    nome: "Lasanha de frango c/ queijo",
+    nome: "Lasanha de frango c/ queijo ( ESGOTADO )",
     categoria: "Massas",
     descricao:
       " (aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
@@ -383,7 +383,7 @@ const produtos = [
 
   {
     id: 10.2,
-    nome: "Nhoque Batata a bolonhesa",
+    nome: "Nhoque Batata a bolonhesa ( ESGOTADO )",
     categoria: "Massas",
     descricao:
       " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
@@ -393,7 +393,7 @@ const produtos = [
 
   {
     id: 10.3,
-    nome: "Nhoque Batata c/ carne de panela",
+    nome: "Nhoque Batata c/ carne de panela ( ESGOTADO )",
     categoria: "Massas",
     descricao:
       " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
@@ -403,7 +403,7 @@ const produtos = [
 
   {
     id: 10.4,
-    nome: "Nhoque Aipim  a bolonhesa",
+    nome: "Nhoque Aipim  a bolonhesa ( ESGOTADO )",
     categoria: "Massas",
     descricao:
       " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
@@ -413,7 +413,7 @@ const produtos = [
 
   {
     id: 10.5,
-    nome: "Nhoque Aipim c/ carne de panela",
+    nome: "Nhoque Aipim c/ carne de panela ( ESGOTADO )",
     categoria: "Massas",
     descricao:
       " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",

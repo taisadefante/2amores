@@ -1,7 +1,8 @@
-import logo from "../../assets/logo.png";
-import Cart from "../Cart/cart";
+import React from "react";
+import logo from "../../assets/logo.png"; // Import the logo image
+import Cart from "../Cart/cart"; // Import the Cart component
+import { FaWhatsapp } from "react-icons/fa"; // Import the FaWhatsapp icon
 import "./navbar.css";
-import { FaWhatsapp } from "react-icons/fa"; // Certifique-se de ter instalado react-icons
 
 function Navbar({ itemsCount }) {
   function openSidebar() {
