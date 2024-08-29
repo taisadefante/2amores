@@ -1179,7 +1179,7 @@ const produtos = [
   //BEBIDA
   {
     id: 30,
-    nome: "Pepsi 2lt",
+    nome: "Pepsi 2lt ( ESGOTADO )",
     categoria: "Bebidas",
     descricao: "",
     preco: 10.0,
@@ -1188,7 +1188,7 @@ const produtos = [
 
   {
     id: 30.1,
-    nome: "Sukita uva",
+    nome: "Sukita uva ( ESGOTADO )",
     categoria: "Bebidas",
     preco: 8.0,
     foto: sukita_uva,
@@ -1196,7 +1196,7 @@ const produtos = [
 
   {
     id: 30.2,
-    nome: "Sukita Laranja",
+    nome: "Sukita Laranja ( ESGOTADO )",
     categoria: "Bebidas",
     preco: 8.0,
     foto: sukita_laranja,
