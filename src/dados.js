@@ -2,8 +2,10 @@ import promocao from "./assets/promocao.png";
 
 //REFEIÇÕES - FIT / TRADICIONAL
 
-import cardapio_fit from "./assets/refeições-fit-tradicional/CARDAPIO FIT  (1).jpg";
-import cardapio_fit_montar from "./assets/refeições-fit-tradicional/CARDAPIO FIT - MONTAR.jpg";
+import cardapio_fit from "./assets/cardapio/CARDAPIO FIT  (1).jpg";
+import cardapio_fit_montar from "./assets/cardapio/CARDAPIO FIT - MONTAR.jpg";
+import cardapio_sopas from "./assets/cardapio/cardapio_sopas.jpg";
+import cardapio_massas from "./assets/cardapio/cardapio_massas.png";
 
 import marmita from "./assets/refeições-fit-tradicional/marmita.jpg";
 
@@ -102,6 +104,7 @@ import morango from "./assets/doces e sobremesas/morango.jpg";
 import ninho from "./assets/doces e sobremesas/ninho.jpg";
 import mini_pudim from "./assets/doces e sobremesas/mini_pudim.jpg";
 import arrozdoce from "./assets/doces e sobremesas/arroz doce.jpg";
+import deliciauva from "./assets/doces e sobremesas/delicia_uva.jpg";
 
 // GELADINHO / SACOLE GOURMET
 import geladinho_coco from "./assets/geladinho/coco.jpg";
@@ -127,7 +130,7 @@ const produtos = [
 
   {
     id: 2.0,
-    nome: "Cardapio Marmita fit",
+    nome: "Cardápio Marmita fit",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: "",
     preco: 0,
@@ -170,24 +173,6 @@ const produtos = [
     descricao: "Recheado com molho a bolonhesa e queijo (aprox: 400g).",
     preco: 17.0,
     foto: bolo_batata_arroz,
-  },
-
-  {
-    id: 2.5,
-    nome: "Panqueca de frango c/ ricota - arroz c/ brócolis",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: "(aprox: 300g). ",
-    preco: 13.0,
-    foto: bolo_batata_arroz,
-  },
-
-  {
-    id: 2.6,
-    nome: "Frango grelhado com alho poró c/ molho branco, arroz c/ cenoura e batata doce ",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: "(aprox: 250g). ",
-    preco: 12.0,
-    foto: marmita,
   },
 
   {
@@ -263,21 +248,12 @@ const produtos = [
   //SOPAS
 
   {
-    id: 6.0,
-    nome: "Promoção",
-    categoria: "Sopas",
-    descricao: "Comprando 3 sopas (encomenda) ganhe 7% desconto",
-    preco: 0,
-    foto: promocao,
-  },
-
-  {
     id: 6,
-    nome: "Sopa de ervilha 500ml",
+    nome: "Cardápio Sopas",
     categoria: "Sopas",
-    descricao: "Aprox: 500ml - sopa de ervilha com calabresa, bacon",
-    preco: 18.0,
-    foto: sopa_ervilha,
+    descricao: "",
+    preco: 0,
+    foto: cardapio_sopas,
   },
 
   {
@@ -300,9 +276,29 @@ const produtos = [
     foto: sopa_canja,
   },
 
+  {
+    id: 6.3,
+    nome: "Sopa de ervilha 500ml",
+    categoria: "Sopas",
+    descricao: "Aprox: 500ml - sopa de ervilha com calabresa, bacon",
+    preco: 18.0,
+    foto: sopa_ervilha,
+  },
+
   //MASSAS
+
   {
     id: 10,
+    nome: "Cardápio massas",
+    categoria: "Massas",
+    descricao:
+      " (aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+    preco: 0,
+    foto: cardapio_massas,
+  },
+
+  {
+    id: 10.1,
     nome: "Lasanha bolonhesa c/ queijo e presunto ( ESGOTADO )",
     categoria: "Massas",
     descricao:
@@ -312,7 +308,7 @@ const produtos = [
   },
 
   {
-    id: 10.1,
+    id: 10.2,
     nome: "Lasanha de frango c/ queijo ( ESGOTADO )",
     categoria: "Massas",
     descricao:
@@ -322,7 +318,7 @@ const produtos = [
   },
 
   {
-    id: 10.2,
+    id: 10.3,
     nome: "Nhoque Batata a bolonhesa ( ESGOTADO )",
     categoria: "Massas",
     descricao:
@@ -332,7 +328,7 @@ const produtos = [
   },
 
   {
-    id: 10.3,
+    id: 10.4,
     nome: "Nhoque Batata c/ carne de panela ( ESGOTADO )",
     categoria: "Massas",
     descricao:
@@ -342,7 +338,7 @@ const produtos = [
   },
 
   {
-    id: 10.4,
+    id: 10.5,
     nome: "Nhoque Aipim  a bolonhesa ( ESGOTADO )",
     categoria: "Massas",
     descricao:
@@ -352,7 +348,7 @@ const produtos = [
   },
 
   {
-    id: 10.5,
+    id: 10.6,
     nome: "Nhoque Aipim c/ carne de panela ( ESGOTADO )",
     categoria: "Massas",
     descricao:
@@ -913,7 +909,7 @@ const produtos = [
 
   {
     id: 24,
-    nome: "Arroz Doce",
+    nome: "Arroz Doce (Esgotado)",
     categoria: "Doces e sobremesas",
     descricao: "",
     preco: 5.0,
@@ -922,7 +918,7 @@ const produtos = [
 
   {
     id: 24.1,
-    nome: "Docinho Brigadeiro",
+    nome: "Docinho Brigadeiro (Esgotado)",
     categoria: "Doces e sobremesas",
     descricao:
       "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
@@ -932,7 +928,7 @@ const produtos = [
 
   {
     id: 24.2,
-    nome: "Docinho ninho",
+    nome: "Docinho ninho (Esgotado)",
     categoria: "Doces e sobremesas",
     descricao:
       "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
@@ -942,7 +938,7 @@ const produtos = [
 
   {
     id: 24.3,
-    nome: "Docinho morango",
+    nome: "Docinho morango (Esgotado)",
     categoria: "Doces e sobremesas",
     descricao:
       "Aprox: ( 15g ) - acima de 50 unidades sai a R$1,5 unidade, cento por R$ 120,00 ",
@@ -952,11 +948,20 @@ const produtos = [
 
   {
     id: 24.4,
-    nome: "Mini Pudim",
+    nome: "Mini Pudim (Esgotado)",
     categoria: "Doces e sobremesas",
     descricao: "Aprox: ( 40g )  ",
     preco: 2.5,
     foto: mini_pudim,
+  },
+
+  {
+    id: 24.5,
+    nome: "Delicia de uva - 290g",
+    categoria: "Doces e sobremesas",
+    descricao: "Aprox: ( 290g )  ",
+    preco: 17.9,
+    foto: deliciauva,
   },
 
   // GELADINHO
