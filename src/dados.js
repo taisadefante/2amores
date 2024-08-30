@@ -2,6 +2,11 @@ import promocao from "./assets/promocao.png";
 
 //REFEIÇÕES - FIT / TRADICIONAL
 
+import cardapio_fit from "./assets/refeições-fit-tradicional/CARDAPIO FIT  (1).jpg";
+import cardapio_fit_montar from "./assets/refeições-fit-tradicional/CARDAPIO FIT - MONTAR.jpg";
+
+import marmita from "./assets/refeições-fit-tradicional/marmita.jpg";
+
 import panqueca_arrozblocolis from "./assets/refeições-fit-tradicional/panqueca_arrozbrocolis.png";
 import panqueca_arrozbranco from "./assets/refeições-fit-tradicional/panqueca_arrozbranco.png";
 import panqueca_espinafre from "./assets/refeições-fit-tradicional/panqueca_espinafre.png";
@@ -102,6 +107,8 @@ import arrozdoce from "./assets/doces e sobremesas/arroz doce.jpg";
 import geladinho_coco from "./assets/geladinho/coco.jpg";
 import geladinho_coco_ganache from "./assets/geladinho/coco_ganache.jpg";
 import geladinho_ninho_nutella from "./assets/geladinho/ninho_nutella.jpg";
+import geladinho_pacoca from "./assets/geladinho/pacoca.jpg";
+import geladinho_pacoca_ganache from "./assets/geladinho/pacoca_ganache.jpg";
 
 //FESTA
 import chocomaca from "./assets/outros/chocomaca.png";
@@ -120,12 +127,21 @@ const produtos = [
 
   {
     id: 2.0,
-    nome: "Promoção",
+    nome: "Cardapio Marmita fit",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao:
-      "Comprando 10 marmitas ( encomenda) ganhe 7% de desconto - 72h para entrega",
+      "Comprando 10  ( encomenda) ganhe 7% de desconto - 72h para entrega",
     preco: 0,
-    foto: promocao,
+    foto: cardapio_fit,
+  },
+
+  {
+    id: 2.01,
+    nome: "Monte seu kit Marmita fit",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "",
+    preco: 0,
+    foto: cardapio_fit_montar,
   },
 
   {
@@ -136,26 +152,6 @@ const produtos = [
       "Aprox: 350g - Panqueca de carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e brocolis.",
     preco: 15.0,
     foto: panqueca_arrozbranco,
-  },
-
-  {
-    id: 2.1,
-    nome: "Panqueca carne",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao:
-      "Aprox: 350g - Panqueca de carne com milho, arroz branco com brocolis, cenoura refogada no azeite e ervas finas.",
-    preco: 15.0,
-    foto: panqueca_arrozblocolis,
-  },
-
-  {
-    id: 2.2,
-    nome: "Panqueca de espinafre carne",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao:
-      "Aprox: 350g - Panqueca de espinafre c/ carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e blocolis.",
-    preco: 15.0,
-    foto: panqueca_espinafre,
   },
 
   {
@@ -187,33 +183,6 @@ const produtos = [
   },
 
   {
-    id: 2.6,
-    nome: "Panqueca frango c/ milho, arroz c/ brócolis",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 300g). ",
-    preco: 13.0,
-    foto: panqueca_arrozcenoura,
-  },
-
-  {
-    id: 2.7,
-    nome: "Panqueca espinafre frango cremoso com requeijão, arroz com cenoura",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 300g) ",
-    preco: 13.0,
-    foto: panqueca_arrozcenoura,
-  },
-
-  {
-    id: 2.8,
-    nome: "Panqueca espinafre frango e ricota, arroz com cenoura",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 300g) ",
-    preco: 13.0,
-    foto: panqueca_arrozcenoura,
-  },
-
-  {
     id: 2.9,
     nome: "Panqueca espinafre frango , arroz com cenoura",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
@@ -241,75 +210,12 @@ const produtos = [
   },
 
   {
-    id: 2.12,
-    nome: "Frango c/ quiabo, arroz c/ açafrão, mix legumes (cenoura, abobora, inhame e chuchu).",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 350g) ",
-    preco: 15.0,
-    foto: frango_quiabo2,
-  },
-
-  {
-    id: 2.13,
-    nome: "Frango c/ quiabo, arroz c/ açafrão e abobora refogada c/ ervas finas.",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 350g) ",
-    preco: 15.0,
-    foto: frango_quiabo3,
-  },
-
-  {
-    id: 2.14,
-    nome: "Frango c/ quiabo, arroz c/ açafrão e mix legumes (cenoura, abobora, inhame e chuchu).",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 350g) ",
-    preco: 15.0,
-    foto: frango_quiabo4,
-  },
-
-  {
-    id: 2.15,
-    nome: "Frango c/ quiabo, arroz integral e abobora.",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 350g) ",
-    preco: 15.0,
-    foto: frango_quiabo5,
-  },
-
-  {
     id: 2.16,
     nome: "Frango c/ quiabo, arroz integral e mix legumes (cenoura, abobora, inhame e chuchu).",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 350g) ",
     preco: 15.0,
     foto: frango_quiabo6,
-  },
-
-  {
-    id: 2.17,
-    nome: "File de linguado no forno, arroz integral e abobora.",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 300g) ",
-    preco: 13.0,
-    foto: linguado_forno1,
-  },
-
-  {
-    id: 2.18,
-    nome: "File de linguado no forno, arroz c/açafrão e mix de legumes (cenoura, inhame e chuchu).",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 300g) ",
-    preco: 13.0,
-    foto: linguado_forno3,
-  },
-
-  {
-    id: 2.19,
-    nome: "File de linguado no forno, arroz integral e amix de legumes (cenoura, inhame e chuchu).",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 300g) ",
-    preco: 13.0,
-    foto: linguado_forno4,
   },
 
   {
@@ -320,6 +226,7 @@ const produtos = [
     preco: 13.0,
     foto: linguado_forno5,
   },
+
   //SOPAS
 
   {
@@ -442,7 +349,7 @@ const produtos = [
 
   {
     id: 11.2,
-    nome: "Panqueca de espinafre frango com ricota molho branco",
+    nome: "Panqueca de espinafre frango com ricota molho branco ( ESGOTADO )",
     categoria: "Panquecas",
     descricao: " (aprox: 300gr) ",
     preco: 18.0,
@@ -451,7 +358,7 @@ const produtos = [
 
   {
     id: 11.3,
-    nome: "Panqueca frango com milho molho branco",
+    nome: "Panqueca frango com milho molho branco ( ESGOTADO )",
     categoria: "Panquecas",
     descricao: " (aprox: 300gr) ",
     preco: 18.0,
@@ -460,13 +367,21 @@ const produtos = [
 
   {
     id: 11.4,
-    nome: "Panqueca queijo, presunto, tomate e manjericão",
+    nome: "Panqueca queijo, presunto, tomate e manjericão ( ESGOTADO )",
     categoria: "Panquecas",
     descricao: " (aprox: 300gr) ",
     preco: 18.0,
     foto: panqueca_queijo_pres_maj,
   },
 
+  {
+    id: 11.5,
+    nome: "Panqueca espinafre c/ frango cremoso c/ requeijão",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) ",
+    preco: 18.0,
+    foto: panqueca_frango_molhobranco,
+  },
   //EMPADAS
   {
     id: 12,
@@ -1042,7 +957,7 @@ const produtos = [
 
   {
     id: 26.3,
-    nome: "Morango com Nutella",
+    nome: "Morango com Nutella ( ESGOTADO )",
     categoria: "Geladinho / Sacole Gourmet",
     descricao: "Aprox: 160g",
     preco: 5.0,
@@ -1060,7 +975,7 @@ const produtos = [
 
   {
     id: 26.5,
-    nome: "Abacaxi",
+    nome: "Abacaxi ( ESGOTADO )",
     categoria: "Geladinho / Sacole Gourmet",
     descricao: "Aprox: 160g",
     preco: 5.0,
@@ -1073,7 +988,7 @@ const produtos = [
     categoria: "Geladinho / Sacole Gourmet",
     descricao: "Aprox: 160g",
     preco: 5.0,
-    foto: "",
+    foto: geladinho_pacoca,
   },
 
   {
@@ -1082,12 +997,12 @@ const produtos = [
     categoria: "Geladinho / Sacole Gourmet",
     descricao: "Aprox: 160g",
     preco: 5.0,
-    foto: "",
+    foto: geladinho_pacoca_ganache,
   },
 
   {
     id: 26.8,
-    nome: "Maracuja",
+    nome: "Maracuja ( ESGOTADO )",
     categoria: "Geladinho / Sacole Gourmet",
     descricao: "Aprox: 160g",
     preco: 5.0,
@@ -1096,7 +1011,7 @@ const produtos = [
 
   {
     id: 26.9,
-    nome: "Maracuja c/ ganache",
+    nome: "Maracuja c/ ganache ( ESGOTADO )",
     categoria: "Geladinho / Sacole Gourmet",
     descricao: "Aprox: 160g",
     preco: 5.0,
@@ -1105,7 +1020,7 @@ const produtos = [
 
   {
     id: 26.11,
-    nome: "Chocolate",
+    nome: "Chocolate ( ESGOTADO )",
     categoria: "Geladinho / Sacole Gourmet",
     descricao: "Aprox: 160g",
     preco: 5.0,
@@ -1114,7 +1029,7 @@ const produtos = [
 
   {
     id: 26.12,
-    nome: "Doce de Leite",
+    nome: "Doce de Leite ( ESGOTADO )",
     categoria: "Geladinho / Sacole Gourmet",
     descricao: "Aprox: 160g",
     preco: 5.0,
@@ -1123,7 +1038,7 @@ const produtos = [
 
   {
     id: 26.13,
-    nome: "Romeu e Julieta",
+    nome: "Romeu e Julieta ( ESGOTADO )",
     categoria: "Geladinho / Sacole Gourmet",
     descricao: "Aprox: 160g",
     preco: 5.0,
