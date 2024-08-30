@@ -182,19 +182,36 @@ const produtos = [
   },
 
   {
+    id: 2.6,
+    nome: "Frango grelhado com alho poró c/ molho branco, arroz c/ cenoura e batata doce ",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "(aprox: 250g). ",
+    preco: 12.0,
+    foto: marmita,
+  },
+
+  {
+    id: 2.7,
+    nome: "Frango grelhado com alho poró c/ molho branco, arroz c/ cenoura e batata doce ",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "(aprox: 300g). ",
+    preco: 13.0,
+    foto: marmita,
+  },
+
+  {
+    id: 2.8,
+    nome: "Frango grelhado com alho poró c/ molho branco, batata doce e mix de repolho",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "(aprox: 300g). ",
+    preco: 13.0,
+    foto: marmita,
+  },
+  {
     id: 2.9,
     nome: "Panqueca espinafre frango , arroz com cenoura",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
     descricao: " (aprox: 250g)",
-    preco: 11.0,
-    foto: panqueca_arrozcenoura,
-  },
-
-  {
-    id: 2.9,
-    nome: "Panqueca espinafre frango C/ MILHO , arroz com cenoura",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 250g) ",
     preco: 11.0,
     foto: panqueca_arrozcenoura,
   },
@@ -206,6 +223,23 @@ const produtos = [
     descricao: " (aprox: 350g) ",
     preco: 15.0,
     foto: frango_quiabo1,
+  },
+  {
+    id: 2.12,
+    nome: "Panqueca espinafre frango C/ MILHO , arroz com cenoura",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: " (aprox: 250g) ",
+    preco: 11.0,
+    foto: panqueca_arrozcenoura,
+  },
+
+  {
+    id: 2.13,
+    nome: "Frango grelhado com alho poró c/ molho branco, arroz c/ cenoura e mix de repolho",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "(aprox: 300g). ",
+    preco: 13.0,
+    foto: marmita,
   },
 
   {
