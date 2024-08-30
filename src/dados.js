@@ -129,8 +129,7 @@ const produtos = [
     id: 2.0,
     nome: "Cardapio Marmita fit",
     categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao:
-      "Comprando 10  ( encomenda) ganhe 7% de desconto - 72h para entrega",
+    descricao: "",
     preco: 0,
     foto: cardapio_fit,
   },
