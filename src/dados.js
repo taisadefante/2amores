@@ -1,50 +1,5 @@
 import promocao from "./assets/promocao.png";
 
-//REFEIÇÕES - FIT / TRADICIONAL
-
-import cardapio_fit from "./assets/cardapio/CARDAPIO FIT  (1).jpg";
-import cardapio_fit_montar from "./assets/cardapio/CARDAPIO FIT - MONTAR.jpg";
-import cardapio_sopas from "./assets/cardapio/cardapio_sopas.jpg";
-import cardapio_massas from "./assets/cardapio/cardapio_massas.png";
-
-import marmita from "./assets/refeições-fit-tradicional/marmita.jpg";
-
-import panqueca_arrozblocolis from "./assets/refeições-fit-tradicional/panqueca_arrozbrocolis.png";
-import panqueca_arrozbranco from "./assets/refeições-fit-tradicional/panqueca_arrozbranco.png";
-import panqueca_espinafre from "./assets/refeições-fit-tradicional/panqueca_espinafre.png";
-import bolo_batata from "./assets/refeições-fit-tradicional/bolo-batata.png";
-import bolo_batata_arroz from "./assets/refeições-fit-tradicional/BOLO BATATA E ARROZ BRANCO.png";
-import panqueca_arrozbrocolis_molhobranco from "./assets/refeições-fit-tradicional/panqueca_arrozbrocolis (2).png";
-import panqueca_arrozcenoura from "./assets/refeições-fit-tradicional/panqueca_arrozcenoura.jpg";
-
-import frango_quiabo1 from "./assets/refeições-fit-tradicional/frango com quiabo (1).jpg";
-import frango_quiabo2 from "./assets/refeições-fit-tradicional/frango com quiabo (2).jpg";
-import frango_quiabo3 from "./assets/refeições-fit-tradicional/frango com quiabo (3).jpg";
-import frango_quiabo4 from "./assets/refeições-fit-tradicional/frango com quiabo (4).jpg";
-import frango_quiabo5 from "./assets/refeições-fit-tradicional/frango com quiabo (5).jpg";
-import frango_quiabo6 from "./assets/refeições-fit-tradicional/frango com quiabo (6).jpg";
-
-import linguado_forno1 from "./assets/refeições-fit-tradicional/linguado_forno (1).jpg";
-import linguado_forno3 from "./assets/refeições-fit-tradicional/linguado_forno (3).jpg";
-import linguado_forno4 from "./assets/refeições-fit-tradicional/linguado_forno (4).jpg";
-import linguado_forno5 from "./assets/refeições-fit-tradicional/linguado_forno (5).jpg";
-
-//SOPAS
-import sopa_ervilha from "./assets/sopa/ervilha.png";
-import sopa_canja from "./assets/sopa/CANJA.png";
-
-//MASSAS
-import lasanha_bolonhesa from "./assets/massas/lasanha_bolonhesa.png";
-import lasanha_frango from "./assets/massas/lasanha-frango.jpg";
-import nhoque from "./assets/massas/nhoque.jpg";
-
-//PANQUECAS
-import panqueca_carne from "./assets/panqueca/panqueca_carne.png";
-import panqueca_espinafre_carne from "./assets/panqueca/espinafre_carne.png";
-import panqueca_frango_molhobranco from "./assets/panqueca/molhobranco.png";
-import panqueca_espinafre_frango_molhobranco from "./assets/panqueca/PAQUECA_ESPINAFRE.png";
-import panqueca_queijo_pres_maj from "./assets/panqueca/queijo_presunto_manjericao.jpg";
-
 //EMPADAS
 import empada_Frango from "./assets/empadas/frango.png";
 import empada_frango_azeitona from "./assets/empadas/frango_azeitona.png";
@@ -105,6 +60,8 @@ import ninho from "./assets/doces e sobremesas/ninho.jpg";
 import mini_pudim from "./assets/doces e sobremesas/mini_pudim.jpg";
 import arrozdoce from "./assets/doces e sobremesas/arroz doce.jpg";
 import deliciauva from "./assets/doces e sobremesas/delicia_uva.jpg";
+import mousechocolate from "./assets/doces e sobremesas/mouse chocolate.jpg";
+import Quindim from "./assets/doces e sobremesas/quindim.jpg";
 
 // GELADINHO / SACOLE GOURMET
 import geladinho_coco from "./assets/geladinho/coco.jpg";
@@ -112,6 +69,51 @@ import geladinho_coco_ganache from "./assets/geladinho/coco_ganache.jpg";
 import geladinho_ninho_nutella from "./assets/geladinho/ninho_nutella.jpg";
 import geladinho_pacoca from "./assets/geladinho/pacoca.jpg";
 import geladinho_pacoca_ganache from "./assets/geladinho/pacoca_ganache.jpg";
+
+//REFEIÇÕES - FIT / TRADICIONAL
+
+import cardapio_fit from "./assets/cardapio/CARDAPIO FIT  (1).jpg";
+import cardapio_fit_montar from "./assets/cardapio/CARDAPIO FIT - MONTAR.jpg";
+import cardapio_sopas from "./assets/cardapio/cardapio_sopas.jpg";
+import cardapio_massas from "./assets/cardapio/cardapio_massas.png";
+
+import marmita from "./assets/refeições-fit-tradicional/marmita.jpg";
+
+import panqueca_arrozblocolis from "./assets/refeições-fit-tradicional/panqueca_arrozbrocolis.png";
+import panqueca_arrozbranco from "./assets/refeições-fit-tradicional/panqueca_arrozbranco.png";
+import panqueca_espinafre from "./assets/refeições-fit-tradicional/panqueca_espinafre.png";
+import bolo_batata from "./assets/refeições-fit-tradicional/bolo-batata.png";
+import bolo_batata_arroz from "./assets/refeições-fit-tradicional/BOLO BATATA E ARROZ BRANCO.png";
+import panqueca_arrozbrocolis_molhobranco from "./assets/refeições-fit-tradicional/panqueca_arrozbrocolis (2).png";
+import panqueca_arrozcenoura from "./assets/refeições-fit-tradicional/panqueca_arrozcenoura.jpg";
+
+import frango_quiabo1 from "./assets/refeições-fit-tradicional/frango com quiabo (1).jpg";
+import frango_quiabo2 from "./assets/refeições-fit-tradicional/frango com quiabo (2).jpg";
+import frango_quiabo3 from "./assets/refeições-fit-tradicional/frango com quiabo (3).jpg";
+import frango_quiabo4 from "./assets/refeições-fit-tradicional/frango com quiabo (4).jpg";
+import frango_quiabo5 from "./assets/refeições-fit-tradicional/frango com quiabo (5).jpg";
+import frango_quiabo6 from "./assets/refeições-fit-tradicional/frango com quiabo (6).jpg";
+
+import linguado_forno1 from "./assets/refeições-fit-tradicional/linguado_forno (1).jpg";
+import linguado_forno3 from "./assets/refeições-fit-tradicional/linguado_forno (3).jpg";
+import linguado_forno4 from "./assets/refeições-fit-tradicional/linguado_forno (4).jpg";
+import linguado_forno5 from "./assets/refeições-fit-tradicional/linguado_forno (5).jpg";
+
+//SOPAS
+import sopa_ervilha from "./assets/sopa/ervilha.png";
+import sopa_canja from "./assets/sopa/CANJA.png";
+
+//MASSAS
+import lasanha_bolonhesa from "./assets/massas/lasanha_bolonhesa.png";
+import lasanha_frango from "./assets/massas/lasanha-frango.jpg";
+import nhoque from "./assets/massas/nhoque.jpg";
+
+//PANQUECAS
+import panqueca_carne from "./assets/panqueca/panqueca_carne.png";
+import panqueca_espinafre_carne from "./assets/panqueca/espinafre_carne.png";
+import panqueca_frango_molhobranco from "./assets/panqueca/molhobranco.png";
+import panqueca_espinafre_frango_molhobranco from "./assets/panqueca/PAQUECA_ESPINAFRE.png";
+import panqueca_queijo_pres_maj from "./assets/panqueca/queijo_presunto_manjericao.jpg";
 
 //FESTA
 import chocomaca from "./assets/outros/chocomaca.png";
@@ -126,291 +128,6 @@ import sukita_uva from "./assets/bebida/sukita_uva.jpg";
 import sukita_laranja from "./assets/bebida/sukita_laranja.jpg";
 
 const produtos = [
-  //REFEIÇÕES - FIT/TRADICIONAL
-
-  {
-    id: 2.0,
-    nome: "Cardápio Marmita fit",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: "",
-    preco: 0,
-    foto: cardapio_fit,
-  },
-
-  {
-    id: 2.01,
-    nome: "Monte seu kit Marmita fit",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: "",
-    preco: 0,
-    foto: cardapio_fit_montar,
-  },
-
-  {
-    id: 2,
-    nome: "Panqueca carne",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao:
-      "Aprox: 350g - Panqueca de carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e brocolis.",
-    preco: 15.0,
-    foto: panqueca_arrozbranco,
-  },
-
-  {
-    id: 2.3,
-    nome: "Bolo de batata ( ESGOTADO )",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao:
-      "Recheado com molho a bolonhesa e queijo (aprox: 500g)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta). ",
-    preco: 20.0,
-    foto: bolo_batata,
-  },
-
-  {
-    id: 2.4,
-    nome: "Bolo de batata c/ arroz ( ESGOTADO )",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 400g).",
-    preco: 17.0,
-    foto: bolo_batata_arroz,
-  },
-
-  {
-    id: 2.7,
-    nome: "Frango grelhado com alho poró c/ molho branco, arroz c/ cenoura e batata doce ",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: "(aprox: 300g). ",
-    preco: 13.0,
-    foto: marmita,
-  },
-
-  {
-    id: 2.8,
-    nome: "Frango grelhado com alho poró c/ molho branco, batata doce e mix de repolho",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: "(aprox: 300g). ",
-    preco: 13.0,
-    foto: marmita,
-  },
-  {
-    id: 2.9,
-    nome: "Panqueca espinafre frango , arroz com cenoura",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 250g)",
-    preco: 11.0,
-    foto: panqueca_arrozcenoura,
-  },
-
-  {
-    id: 2.11,
-    nome: "Frango c/ quiabo, arroz integral, mix legumes (cenoura, abobora, inhame e chuchu).",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 350g) ",
-    preco: 15.0,
-    foto: frango_quiabo1,
-  },
-  {
-    id: 2.12,
-    nome: "Panqueca espinafre frango C/ MILHO , arroz com cenoura",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 250g) ",
-    preco: 11.0,
-    foto: panqueca_arrozcenoura,
-  },
-
-  {
-    id: 2.13,
-    nome: "Frango grelhado com alho poró c/ molho branco, arroz c/ cenoura e mix de repolho",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: "(aprox: 300g). ",
-    preco: 13.0,
-    foto: marmita,
-  },
-
-  {
-    id: 2.16,
-    nome: "Frango c/ quiabo, arroz integral e mix legumes (cenoura, abobora, inhame e chuchu).",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 350g) ",
-    preco: 15.0,
-    foto: frango_quiabo6,
-  },
-
-  {
-    id: 2.21,
-    nome: "File de linguado no forno, arroz c/açafrão e abobora.",
-    categoria: "Refeições (Fit, Tradicionais, Low carb)",
-    descricao: " (aprox: 300g) ",
-    preco: 13.0,
-    foto: linguado_forno5,
-  },
-
-  //SOPAS
-
-  {
-    id: 6,
-    nome: "Cardápio Sopas",
-    categoria: "Sopas",
-    descricao: "",
-    preco: 0,
-    foto: cardapio_sopas,
-  },
-
-  {
-    id: 6.1,
-    nome: "Sopa Canja 500ml ( ESGOTADO )",
-    categoria: "Sopas",
-    descricao:
-      "Aprox: 500ml - Com batata, cenoura, peito frango em cubos, curry",
-    preco: 18.0,
-    foto: sopa_canja,
-  },
-
-  {
-    id: 6.2,
-    nome: "Sopa Canja 350ml ( ESGOTADO )",
-    categoria: "Sopas",
-    descricao:
-      "Aprox: 350ml - Com batata, cenoura, inhame, peito frango em cubos, curry",
-    preco: 13.0,
-    foto: sopa_canja,
-  },
-
-  {
-    id: 6.3,
-    nome: "Sopa de ervilha 500ml",
-    categoria: "Sopas",
-    descricao: "Aprox: 500ml - sopa de ervilha com calabresa, bacon",
-    preco: 18.0,
-    foto: sopa_ervilha,
-  },
-
-  //MASSAS
-
-  {
-    id: 10,
-    nome: "Cardápio massas",
-    categoria: "Massas",
-    descricao:
-      " (aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
-    preco: 0,
-    foto: cardapio_massas,
-  },
-
-  {
-    id: 10.1,
-    nome: "Lasanha bolonhesa c/ queijo e presunto ( ESGOTADO )",
-    categoria: "Massas",
-    descricao:
-      " (aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
-    preco: 22.0,
-    foto: lasanha_bolonhesa,
-  },
-
-  {
-    id: 10.2,
-    nome: "Lasanha de frango c/ queijo ( ESGOTADO )",
-    categoria: "Massas",
-    descricao:
-      " (aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
-    preco: 22.0,
-    foto: lasanha_frango,
-  },
-
-  {
-    id: 10.3,
-    nome: "Nhoque Batata a bolonhesa ( ESGOTADO )",
-    categoria: "Massas",
-    descricao:
-      " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
-    preco: 22.0,
-    foto: nhoque,
-  },
-
-  {
-    id: 10.4,
-    nome: "Nhoque Batata c/ carne de panela ( ESGOTADO )",
-    categoria: "Massas",
-    descricao:
-      " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
-    preco: 22.0,
-    foto: nhoque,
-  },
-
-  {
-    id: 10.5,
-    nome: "Nhoque Aipim  a bolonhesa ( ESGOTADO )",
-    categoria: "Massas",
-    descricao:
-      " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
-    preco: 22.0,
-    foto: nhoque,
-  },
-
-  {
-    id: 10.6,
-    nome: "Nhoque Aipim c/ carne de panela ( ESGOTADO )",
-    categoria: "Massas",
-    descricao:
-      " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
-    preco: 22.0,
-    foto: nhoque,
-  },
-
-  //PANQUECAS
-  {
-    id: 11,
-    nome: "Panqueca c/ Carne",
-    categoria: "Panquecas",
-    descricao: " (aprox: 300gr) - panqueca com carne e milho",
-    preco: 18.0,
-    foto: panqueca_carne,
-  },
-
-  {
-    id: 11.1,
-    nome: "Panqueca de espinafre Carne",
-    categoria: "Panquecas",
-    descricao: " (aprox: 300gr) - panqueca com carne e milho",
-    preco: 18.0,
-    foto: panqueca_espinafre_carne,
-  },
-
-  {
-    id: 11.2,
-    nome: "Panqueca de espinafre frango com ricota molho branco ( ESGOTADO )",
-    categoria: "Panquecas",
-    descricao: " (aprox: 300gr) ",
-    preco: 18.0,
-    foto: panqueca_espinafre_frango_molhobranco,
-  },
-
-  {
-    id: 11.3,
-    nome: "Panqueca frango com milho molho branco ( ESGOTADO )",
-    categoria: "Panquecas",
-    descricao: " (aprox: 300gr) ",
-    preco: 18.0,
-    foto: panqueca_frango_molhobranco,
-  },
-
-  {
-    id: 11.4,
-    nome: "Panqueca queijo, presunto, tomate e manjericão ( ESGOTADO )",
-    categoria: "Panquecas",
-    descricao: " (aprox: 300gr) ",
-    preco: 18.0,
-    foto: panqueca_queijo_pres_maj,
-  },
-
-  {
-    id: 11.5,
-    nome: "Panqueca espinafre c/ frango cremoso c/ requeijão",
-    categoria: "Panquecas",
-    descricao: " (aprox: 300gr) ",
-    preco: 18.0,
-    foto: panqueca_frango_molhobranco,
-  },
   //EMPADAS
   {
     id: 12,
@@ -749,7 +466,7 @@ const produtos = [
   //BOLINHO FEIJOADA
   {
     id: 22,
-    nome: "Bolinho feijoada",
+    nome: "Bolinho feijoada (ESGOTADO)",
     categoria: "Salgados",
     descricao:
       " Aprox: ( 35g ) cada - temos para sua festa com aprox 20g a R$1,20 unid",
@@ -951,7 +668,7 @@ const produtos = [
     nome: "Mini Pudim (Esgotado)",
     categoria: "Doces e sobremesas",
     descricao: "Aprox: ( 40g )  ",
-    preco: 2.5,
+    preco: 3,
     foto: mini_pudim,
   },
 
@@ -962,6 +679,24 @@ const produtos = [
     descricao: "Aprox: ( 290g )  ",
     preco: 17.9,
     foto: deliciauva,
+  },
+
+  {
+    id: 24.6,
+    nome: "Quindim",
+    categoria: "Doces e sobremesas",
+    descricao: " ",
+    preco: 3,
+    foto: Quindim,
+  },
+
+  {
+    id: 24.7,
+    nome: "Mouse chocolate 100g",
+    categoria: "Doces e sobremesas",
+    descricao: "Aprox: ( 290g )  ",
+    preco: 5,
+    foto: mousechocolate,
   },
 
   // GELADINHO
@@ -1081,6 +816,292 @@ const produtos = [
     descricao: "Aprox: 160g",
     preco: 5.0,
     foto: "",
+  },
+
+  //REFEIÇÕES - FIT/TRADICIONAL
+
+  {
+    id: 2.0,
+    nome: "Cardápio Marmita fit",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "",
+    preco: 0,
+    foto: cardapio_fit,
+  },
+
+  {
+    id: 2.01,
+    nome: "Monte seu kit Marmita fit",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "",
+    preco: 0,
+    foto: cardapio_fit_montar,
+  },
+
+  {
+    id: 2,
+    nome: "Panqueca carne",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao:
+      "Aprox: 350g - Panqueca de carne com milho, arroz branco, cenoura refogada no azeite e ervas finas e brocolis.",
+    preco: 15.0,
+    foto: panqueca_arrozbranco,
+  },
+
+  {
+    id: 2.3,
+    nome: "Bolo de batata ( ESGOTADO )",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao:
+      "Recheado com molho a bolonhesa e queijo (aprox: 500g)  - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta). ",
+    preco: 20.0,
+    foto: bolo_batata,
+  },
+
+  {
+    id: 2.4,
+    nome: "Bolo de batata c/ arroz ( ESGOTADO )",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "Recheado com molho a bolonhesa e queijo (aprox: 400g).",
+    preco: 17.0,
+    foto: bolo_batata_arroz,
+  },
+
+  {
+    id: 2.7,
+    nome: "Frango grelhado com alho poró c/ molho branco, arroz c/ cenoura e batata doce ",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "(aprox: 300g). ",
+    preco: 13.0,
+    foto: marmita,
+  },
+
+  {
+    id: 2.8,
+    nome: "Frango grelhado com alho poró c/ molho branco, batata doce e mix de repolho",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "(aprox: 300g). ",
+    preco: 13.0,
+    foto: marmita,
+  },
+  {
+    id: 2.9,
+    nome: "Panqueca espinafre frango , arroz com cenoura",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: " (aprox: 250g)",
+    preco: 11.0,
+    foto: panqueca_arrozcenoura,
+  },
+
+  {
+    id: 2.11,
+    nome: "Frango c/ quiabo, arroz integral, mix legumes (cenoura, abobora, inhame e chuchu).",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: " (aprox: 350g) ",
+    preco: 15.0,
+    foto: frango_quiabo1,
+  },
+  {
+    id: 2.12,
+    nome: "Panqueca espinafre frango C/ MILHO , arroz com cenoura",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: " (aprox: 250g) ",
+    preco: 11.0,
+    foto: panqueca_arrozcenoura,
+  },
+
+  {
+    id: 2.13,
+    nome: "Frango grelhado com alho poró c/ molho branco, arroz c/ cenoura e mix de repolho",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: "(aprox: 300g). ",
+    preco: 13.0,
+    foto: marmita,
+  },
+
+  {
+    id: 2.16,
+    nome: "Frango c/ quiabo, arroz integral e mix legumes (cenoura, abobora, inhame e chuchu).",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: " (aprox: 350g) ",
+    preco: 15.0,
+    foto: frango_quiabo6,
+  },
+
+  {
+    id: 2.21,
+    nome: "File de linguado no forno, arroz c/açafrão e abobora.",
+    categoria: "Refeições (Fit, Tradicionais, Low carb)",
+    descricao: " (aprox: 300g) ",
+    preco: 13.0,
+    foto: linguado_forno5,
+  },
+
+  //SOPAS
+
+  {
+    id: 6,
+    nome: "Cardápio Sopas",
+    categoria: "Sopas",
+    descricao: "",
+    preco: 0,
+    foto: cardapio_sopas,
+  },
+
+  {
+    id: 6.1,
+    nome: "Sopa Canja 500ml ( ESGOTADO )",
+    categoria: "Sopas",
+    descricao:
+      "Aprox: 500ml - Com batata, cenoura, peito frango em cubos, curry",
+    preco: 18.0,
+    foto: sopa_canja,
+  },
+
+  {
+    id: 6.2,
+    nome: "Sopa Canja 350ml ( ESGOTADO )",
+    categoria: "Sopas",
+    descricao:
+      "Aprox: 350ml - Com batata, cenoura, inhame, peito frango em cubos, curry",
+    preco: 13.0,
+    foto: sopa_canja,
+  },
+
+  {
+    id: 6.3,
+    nome: "Sopa de ervilha 500ml",
+    categoria: "Sopas",
+    descricao: "Aprox: 500ml - sopa de ervilha com calabresa, bacon",
+    preco: 18.0,
+    foto: sopa_ervilha,
+  },
+
+  //MASSAS
+
+  {
+    id: 10,
+    nome: "Cardápio massas",
+    categoria: "Massas",
+    descricao:
+      " (aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+    preco: 0,
+    foto: cardapio_massas,
+  },
+
+  {
+    id: 10.1,
+    nome: "Lasanha bolonhesa c/ queijo e presunto ( ESGOTADO )",
+    categoria: "Massas",
+    descricao:
+      " (aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+    preco: 22.0,
+    foto: lasanha_bolonhesa,
+  },
+
+  {
+    id: 10.2,
+    nome: "Lasanha de frango c/ queijo ( ESGOTADO )",
+    categoria: "Massas",
+    descricao:
+      " (aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+    preco: 22.0,
+    foto: lasanha_frango,
+  },
+
+  {
+    id: 10.3,
+    nome: "Nhoque Batata a bolonhesa ( ESGOTADO )",
+    categoria: "Massas",
+    descricao:
+      " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+    preco: 22.0,
+    foto: nhoque,
+  },
+
+  {
+    id: 10.4,
+    nome: "Nhoque Batata c/ carne de panela ( ESGOTADO )",
+    categoria: "Massas",
+    descricao:
+      " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+    preco: 22.0,
+    foto: nhoque,
+  },
+
+  {
+    id: 10.5,
+    nome: "Nhoque Aipim  a bolonhesa ( ESGOTADO )",
+    categoria: "Massas",
+    descricao:
+      " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+    preco: 22.0,
+    foto: nhoque,
+  },
+
+  {
+    id: 10.6,
+    nome: "Nhoque Aipim c/ carne de panela ( ESGOTADO )",
+    categoria: "Massas",
+    descricao:
+      " (aprox: 550gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+    preco: 22.0,
+    foto: nhoque,
+  },
+
+  //PANQUECAS
+  {
+    id: 11,
+    nome: "Panqueca c/ Carne",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) - panqueca com carne e milho",
+    preco: 18.0,
+    foto: panqueca_carne,
+  },
+
+  {
+    id: 11.1,
+    nome: "Panqueca de espinafre Carne",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) - panqueca com carne e milho",
+    preco: 18.0,
+    foto: panqueca_espinafre_carne,
+  },
+
+  {
+    id: 11.2,
+    nome: "Panqueca de espinafre frango com ricota molho branco ( ESGOTADO )",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) ",
+    preco: 18.0,
+    foto: panqueca_espinafre_frango_molhobranco,
+  },
+
+  {
+    id: 11.3,
+    nome: "Panqueca frango com milho molho branco ( ESGOTADO )",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) ",
+    preco: 18.0,
+    foto: panqueca_frango_molhobranco,
+  },
+
+  {
+    id: 11.4,
+    nome: "Panqueca queijo, presunto, tomate e manjericão ( ESGOTADO )",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) ",
+    preco: 18.0,
+    foto: panqueca_queijo_pres_maj,
+  },
+
+  {
+    id: 11.5,
+    nome: "Panqueca espinafre c/ frango cremoso c/ requeijão",
+    categoria: "Panquecas",
+    descricao: " (aprox: 300gr) ",
+    preco: 18.0,
+    foto: panqueca_frango_molhobranco,
   },
 
   // Festas
