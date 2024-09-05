@@ -674,7 +674,7 @@ const produtos = [
 
   {
     id: 24.5,
-    nome: "Delicia de uva - 290g",
+    nome: "Delicia de uva - 290g (Esgotado)",
     categoria: "Doces e sobremesas",
     descricao: "Aprox: ( 290g )  ",
     preco: 17.9,

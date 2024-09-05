@@ -62,14 +62,6 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
             <img
               src={
                 categoria === "Refeições (Fit, Tradicionais, Low carb)"
-                  ? logoRefeicao
-                  : categoria === "Sopas"
-                  ? logoSopa
-                  : categoria === "Massas"
-                  ? logoMassas
-                  : categoria === "Panquecas"
-                  ? logoPanqueca
-                  : categoria === "Empadas"
                   ? logoEmpadas
                   : categoria === "Empadão"
                   ? logoEmpadao
@@ -89,6 +81,14 @@ function BotoesFiltro({ setFiltro, filtroAtivo, setFiltroAtivo, produtos }) {
                   ? logoDoces
                   : categoria === "Geladinho / Sacole Gourmet"
                   ? geladinho
+                    ? logoRefeicao
+                    : categoria === "Sopas"
+                    ? logoSopa
+                    : categoria === "Massas"
+                    ? logoMassas
+                    : categoria === "Panquecas"
+                    ? logoPanqueca
+                    : categoria === "Empadas"
                   : categoria === "Festa"
                   ? logoFestas
                   : categoria === "Bebidas"
