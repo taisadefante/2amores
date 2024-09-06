@@ -6,6 +6,7 @@ import empada_frango_azeitona from "./assets/empadas/frango_azeitona.png";
 import empada_queijo from "./assets/empadas/queijo.png";
 import empada_Leite_condensado from "./assets/empadas/leite_condensado.png";
 import empada_alho_poro from "./assets/empadas/alho-poro.jpg";
+import queijoGoiabada from "./assets/empadas/queijo goiabada.jpg";
 
 //EMPADÃO
 import empadao from "./assets/empadao/empadao.jpg";
@@ -149,7 +150,7 @@ const produtos = [
 
   {
     id: 12.2,
-    nome: "Empada Frango c/ azeitona",
+    nome: "Empada Frango c/ azeitona (Esgotado)",
     categoria: "Empadas",
     descricao: "( Aprox: 7cm )",
     preco: 3.0,
@@ -185,7 +186,7 @@ const produtos = [
 
   {
     id: 12.6,
-    nome: "Empada Palmito",
+    nome: "Empada Palmito (Esgotado)",
     categoria: "Empadas",
     descricao: "( Aprox: 7cm )",
     preco: 3.0,
@@ -199,6 +200,15 @@ const produtos = [
     descricao: "( Aprox: 7cm )",
     preco: 3.0,
     foto: empada_Leite_condensado,
+  },
+
+  {
+    id: 12.7,
+    nome: "Queijo c/ goiabada (Esgotado)",
+    categoria: "Empadas",
+    descricao: "( Aprox: 7cm )",
+    preco: 3.0,
+    foto: queijoGoiabada,
   },
 
   // empadão
@@ -215,7 +225,7 @@ const produtos = [
 
   {
     id: 14.1,
-    nome: "Empadão de frango c/ requeijão 500g",
+    nome: "Empadão de frango c/ requeijão 500g (Esgotado)",
     categoria: "Empadão",
     descricao:
       "( Aprox: 500gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
@@ -226,7 +236,7 @@ const produtos = [
 
   {
     id: 14.2,
-    nome: "Empadão de frango c/ requeijão 250g",
+    nome: "Empadão de frango c/ requeijão 250g (Esgotado)",
     categoria: "Empadão",
     descricao:
       "( Aprox: 250gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
@@ -243,6 +253,17 @@ const produtos = [
       "( Aprox: 250gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
 
     preco: 13.0,
+    foto: empadao,
+  },
+
+  {
+    id: 14.3,
+    nome: "Empadão Camarão (Esgotado)",
+    categoria: "Empadão",
+    descricao:
+      "( Aprox: 250gr) - Fazemos maiores por encomenda. também fazemos no seu pirex para aquele almoço especial ( valores sob consulta.",
+
+    preco: 16.0,
     foto: empadao,
   },
 
