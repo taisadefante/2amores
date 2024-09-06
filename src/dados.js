@@ -1116,7 +1116,7 @@ const produtos = [
 
   {
     id: 28.1,
-    nome: "choco maça",
+    nome: "choco maça ",
     categoria: "Festa",
     descricao: "Por encomenda - colorido sai a R$ 3,40",
     preco: 3.0,
