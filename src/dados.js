@@ -203,7 +203,7 @@ const produtos = [
   },
 
   {
-    id: 12.7,
+    id: 12.8,
     nome: "Queijo c/ goiabada (Esgotado)",
     categoria: "Empadas",
     descricao: "( Aprox: 7cm )",
@@ -707,7 +707,7 @@ const produtos = [
     nome: "Quindim",
     categoria: "Doces e sobremesas",
     descricao: " ",
-    preco: 3,
+    preco: 4,
     foto: Quindim,
   },
 
